@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="com.muthu.test.TestJunit" time="0.099" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Workspace\TestWebApp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Workspace\TestWebApp"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\256132\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES\COMMON FILES\LENOVO;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES\COMMON FILES\LENOVO;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES\INTEL\OPENCL SDK\2.0\BIN\X86;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\bin;C:\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\256132"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="256132"/>
+    <property name="java.class.path" value="C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\resources.jar;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\rt.jar;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\sunrsasign.jar;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\jsse.jar;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\jce.jar;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\charsets.jar;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\lib\jfr.jar;D:\swares\jdk1.8.0_65-windows\jdk1.8.0_65-windows\java-windows\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="com.muthu.test.TestJunit" name="testFormatDateSuccess" time="0.029"/>
+  <testcase classname="com.muthu.test.TestJunit" name="testFormatDateFailure" time="0.069"/>
+  <testcase classname="com.muthu.test.TestJunit" name="testFormatDateStr" time="0.001"/>
+</testsuite>
